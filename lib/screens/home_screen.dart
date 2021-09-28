@@ -5,7 +5,6 @@ import 'package:bank_app2/constants/color_constant.dart';
 import 'package:bank_app2/models/card_model.dart';
 import 'package:bank_app2/models/operation_model.dart';
 import 'package:bank_app2/models/transaction_model.dart';
-// ignore: import_of_legacy_library_into_null_safe
 import 'package:google_fonts/google_fonts.dart';
 
 
