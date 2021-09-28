@@ -45,7 +45,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         onTap: () {
                           print('Drawer Tapped!');
                         },
-                        child: SvgPicture.asset('/assets/svg/drawer_icon.svg')),
+                        child: SvgPicture.asset('assets/svg/drawer_icon.svg')),
                     Container(
                       height: 59,
                       width: 59,
