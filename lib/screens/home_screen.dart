@@ -45,14 +45,14 @@ class _HomeScreenState extends State<HomeScreen> {
                         onTap: () {
                           print('Drawer Tapped!');
                         },
-                        child: SvgPicture.asset('assets/svg/drawer_icon.svg')),
+                        child: SvgPicture.asset('/assets/svg/drawer_icon.svg')),
                     Container(
                       height: 59,
                       width: 59,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(20),
                         image: DecorationImage(
-                          image: AssetImage('assets/images/user_image.png'),
+                          image: AssetImage('../assets/images/user_image.png'),
                         ),
                       ),
                     )

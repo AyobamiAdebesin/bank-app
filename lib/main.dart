@@ -52,7 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         style: TextStyle(
                             fontSize: 80.0,
                             fontWeight: FontWeight.bold,
-                            color: Colors.green)),
+                            color: Colors.black)),
                   )
                 ],
               ),
@@ -69,7 +69,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               fontWeight: FontWeight.bold,
                               color: Colors.grey),
                           focusedBorder: UnderlineInputBorder(
-                              borderSide: BorderSide(color: Colors.green))),
+                              borderSide: BorderSide(color: Colors.blue))),
                     ),
                     SizedBox(height: 20.0),
                     TextField(
@@ -80,7 +80,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               fontWeight: FontWeight.bold,
                               color: Colors.grey),
                           focusedBorder: UnderlineInputBorder(
-                              borderSide: BorderSide(color: Colors.green))),
+                              borderSide: BorderSide(color: Colors.blue))),
                       obscureText: true,
                     ),
                     SizedBox(height: 5.0),
@@ -91,7 +91,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         child: Text(
                           'Forgot Password',
                           style: TextStyle(
-                              color: Colors.green,
+                              color: Colors.blue,
                               fontWeight: FontWeight.bold,
                               fontFamily: 'Montserrat',
                               decoration: TextDecoration.underline),
@@ -103,11 +103,11 @@ class _MyHomePageState extends State<MyHomePage> {
                       height: 40.0,
                       child: Material(
                         borderRadius: BorderRadius.circular(20.0),
-                        shadowColor: Colors.greenAccent,
-                        color: Colors.green,
+                        shadowColor: Colors.blueAccent,
+                        color: Colors.blue,
                         elevation: 7.0,
-                        child: GestureDetector(
-                          onTap: () {
+                        child: ElevatedButton(
+                          onPressed: () {
                             Navigator.push(context, MaterialPageRoute(builder: (context) => HomeScreen()));
                           },
                           
@@ -171,7 +171,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Text(
                     'Register',
                     style: TextStyle(
-                        color: Colors.green,
+                        color: Colors.blue,
                         fontFamily: 'Montserrat',
                         fontWeight: FontWeight.bold,
                         decoration: TextDecoration.underline),
